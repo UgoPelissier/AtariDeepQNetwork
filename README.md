@@ -19,7 +19,8 @@ This operation can last up to 20 minutes.
 
 ## Running
 
-### Run training
+### Training
+Run
 ```
 bash ./scripts/train.sh
 ```
@@ -35,7 +36,6 @@ bash ./scripts/test.sh
 ```
 
 You can also skip the training part and run
-Run
 ```
 bash ./scripts/trained.sh
 ```
