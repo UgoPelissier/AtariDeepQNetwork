@@ -18,7 +18,6 @@ from utils.parameters import Parameters
 
 from torch.utils.tensorboard import SummaryWriter
 
-
 opt = Parameters().parse()
         
 if __name__ == '__main__':
@@ -109,7 +108,6 @@ if __name__ == '__main__':
             
             summary_writer.add_scalar('Rew', epinfo['r'], global_step=step)
             summary_writer.add_scalar('EpLen', epinfo['l'], global_step=step)
-            summary_writer.add_scalar('Episodes', episode_count, global_step=step)
             
         # Save
         if step % opt.SAVE_INTERVAL == 0 and step !=0:
