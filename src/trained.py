@@ -20,7 +20,7 @@ if __name__ == '__main__':
     net = Network(env, device)
     net = net.to(device)
     
-    net.load('./model/trained/model.pack')
+    net.load('./src/model/trained/model.pack')
     
     frames = []
     step_starting_index = 0
