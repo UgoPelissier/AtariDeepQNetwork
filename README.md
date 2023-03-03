@@ -1,4 +1,4 @@
-# Atari Deep Q Netwrok
+# Atari Deep Q Network
 
 [Reinforcement Learning] pytorch implementation of Deep Q Network (DQN) on Atari Space-Invaders Game
 
