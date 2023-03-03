@@ -15,7 +15,7 @@ conda env create -f environment.yml
 conda activate atari_dqn
 ```
 
-If you encounter ```InvalidArchiveError```, use ```conda clean --all``` and run again the installation of the environement.
+If you encounter ```InvalidArchiveError```, use ```conda clean --all``` and run again the installation of the environment.
 
 ## Running
 
