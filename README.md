@@ -15,7 +15,7 @@ conda env create -f environment.yml
 conda activate atari_dqn
 ```
 
-This operation can last up to 20 minutes.
+If you encounter ```InvalidArchiveError```, use ```conda clean --all``` and run again the installation of the environement.
 
 ## Running
 

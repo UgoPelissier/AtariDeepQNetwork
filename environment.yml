@@ -284,7 +284,7 @@ dependencies:
     - cycler==0.11.0
     - decorator==4.4.2
     - fonttools==4.38.0
-    - fvcore==0.1.6
+    - fvcore
     - google-auth==2.16.1
     - google-auth-oauthlib==0.4.6
     - grpcio==1.51.3
@@ -329,4 +329,4 @@ dependencies:
     - tqdm==4.64.1
     - werkzeug==2.2.3
     - yacs==0.1.8
-prefix: C:\Users\ugo.pelissier\.conda\envs\DL_course
+prefix: C:\Users\ugo.pelissier\.conda\envs\atari_dqn

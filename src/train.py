@@ -106,8 +106,8 @@ if __name__ == '__main__':
             print('Ep Len', epinfo['l'])
             print('Episodes', episode_count)
             
-            summary_writer.add_scalar('Rew', epinfo['r'], global_step=step)
             summary_writer.add_scalar('EpLen', epinfo['l'], global_step=step)
+            summary_writer.add_scalar('Rew', epinfo['r'], global_step=step)
             
         # Save
         if step % opt.SAVE_INTERVAL == 0 and step !=0:
