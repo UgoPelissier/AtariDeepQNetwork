@@ -2,6 +2,8 @@
 
 [Reinforcement Learning] pytorch implementation of Deep Q Network (DQN) on Atari Space-Invaders Game
 
+![gif](videos/rl_space_invaders.gif)
+
 ## Installation
 
 - Clone this repo
