@@ -6,7 +6,7 @@ python src/train.py \
 --buffer_size 1000000 \
 --min_replay_size 50000 \
 --epsilon_decay 1000000 \
---target_update_frequency 10000 \
+--target_update_frequency 1000 \
 --save_interval 10000 \
 --log_interval 1000 \
 --gamma 0.99 \

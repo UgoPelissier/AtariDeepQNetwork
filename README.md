@@ -40,3 +40,21 @@ You can also skip the training part and run
 bash ./scripts/trained.sh
 ```
 This will use a model already trained (```./model/trained/model.pack```).
+
+In any case, this will create a video of the agent playing the game in the ``videos/`` folder.
+
+## Files descripition
+
+### Source
+
+```src``` folder contains the python code.
+
+The main file is ```train.py```, which runs the training, using the python files in ```utils```.
+
+- ```network.py``` - Contains the CNN proposed in Deepmind article to train the agent, and the associated act and loss functions.
+- ```parameters.py``` - Enables the user to specify parameters in the scripts
+- ```msgpack_numpy.py``` - Contains model saving functions
+
+### Scripts
+
+```scripts``` folder contains the bash scripts to run the training and testing. For training, various parameters can be passed as arguments.

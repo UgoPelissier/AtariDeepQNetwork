@@ -79,7 +79,6 @@ class Network(nn.Module):
         new_obses_t = torch.as_tensor(new_obses, dtype=torch.float32, device=self.device)
         
         # Compute Targets
-
         target_q_values = target_net(new_obses_t)
         max_target_q_values = target_q_values.max(dim=1, keepdim=True)[0]
         
